@@ -4,10 +4,10 @@ import image2 from "../assets/story2.jpg";
 
 const SixthBody = () => {
   return (
-    <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4">Our Newest Story</h2>
-      <div className="text-right my-4">
-        <a href="#" className="text-blue-500">
+    <div className="container mx-auto px-4 py-20 mb-10">
+      <div className="flex items-center justify-between mb-4">
+        <h2 className="text-[50px] font-normal mb-4">Our Newest Story</h2>
+        <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
           See all stories
         </a>
       </div>
@@ -16,22 +16,22 @@ const SixthBody = () => {
           <img
             src={image1}
             alt="Story 1"
-            className="w-full h-auto rounded-lg"
+            className="w-[700px] h-[350px] rounded-3xl mb-3"
           />
           <div className="p-2">
-            <h3 className="text-xl font-semibold">Story 1</h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+            <h3 className="text-4xl font-semibold mb-14">Story 1</h3>
+            <p className="text-black text-3xl">14 Januari 2023</p>
           </div>
         </div>
         <div className="story-card">
           <img
             src={image2}
             alt="Story 2"
-            className="w-full h-auto rounded-lg"
+            className="w-[700px] h-[350px] rounded-3xl mb-3"
           />
           <div className="p-2">
-            <h3 className="text-xl font-semibold">Story 2</h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+            <h3 className="text-4xl font-semibold mb-14">Story 2</h3>
+            <p className="text-black text-3xl">14 Januari 2023</p>
           </div>
         </div>
       </div>

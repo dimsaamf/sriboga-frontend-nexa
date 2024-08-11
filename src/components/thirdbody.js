@@ -33,8 +33,8 @@ const Card = ({ product }) => {
           }`}
         />
       </div>
-      <h3 className="text-center text-lg mt-4">{product.name}</h3>
-      <button className="block mx-auto mt-4 px-4 py-2 bg-white text-blue-600 border border-blue-600 rounded hover:bg-blue-600 hover:text-white transition duration-300">
+      <h3 className="text-center text-2xl mt-4 px-10">{product.name}</h3>
+      <button className="mt-2 block mx-auto text-2xl px-10 py-2 bg-white text-biru-sriboga border border-biru-sriboga rounded hover:bg-blue-600 hover:text-white transition duration-300">
         See Product
       </button>
     </div>
@@ -67,12 +67,11 @@ const products = [
 const ThirdBody = () => {
   return (
     <div className="container mx-auto my-8 p-4">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        Our Superior Product
-      </h2>
-      <div className="flex justify-between items-center mb-4">
-        <span></span>
-        <a href="#" className="text-blue-600">
+      <div className="flex justify-between items-center mb-8">
+        <h2 className="text-[50px] font-normal">
+          Our Superior Product
+        </h2>
+        <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
           See all products
         </a>
       </div>

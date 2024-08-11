@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import sribogaLogo from "../assets/sribogaLogo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,37 +9,27 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md">
-      <div className="container p-4 mx-auto flex flex-col items-center">
-        <div className="text-xl font-bold mb-2">
-          <img
-            src={sribogaLogo}
-            alt="Sriboga Logo"
-            className="mx-auto"
-            style={{ maxWidth: "200px", height: "auto" }}
-          />
-        </div>
-        </div>
-        <div className="mx-auto w-full p-5 bg-cream-sriboga flex flex-col items-center">
-        <div className="hidden md:flex space-x-4 mt-2">
-          <a href="#" className="text-blue-600">
+      <div className="mx-auto w-full p-4 bg-cream-sriboga flex flex-col items-center">
+        <div className="hidden md:flex space-x-10">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             Tentang Kami
           </a>
-          <a href="#" className="text-blue-600">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             Produk
           </a>
-          <a href="#" className="text-blue-600">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             Inspirasi <i>Baking</i>
           </a>
-          <a href="#" className="text-blue-600">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             <i>Baking & Consulting</i>
           </a>
-          <a href="#" className="text-blue-600">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             Pemberdayaan UKM
           </a>
-          <a href="#" className="text-blue-600">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             Acara
           </a>
-          <a href="#" className="text-blue-600">
+          <a href="#" className="text-biru-sriboga font-sriboga1 text-xl">
             Hubungi Kami
           </a>
         </div>

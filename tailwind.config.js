@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'cream-sriboga': '#fffbf0',
+        'biru-sriboga': '#060A6B',
+        'biru-footer': '#012fa7',
       },
     },
     fontFamily: {

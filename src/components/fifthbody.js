@@ -36,7 +36,7 @@ const FifthBody = () => {
 
   return (
     <div className="container mx-auto p-14">
-      <h2 className="text-2xl font-bold mb-4">Upcoming Baking Class & Demo</h2>
+      <h2 className="text-[50px] font-normal mb-4">Upcoming Baking Class & Demo</h2>
       <Slider {...settings}>
         <div className="story-card p-2">
           <img
@@ -44,11 +44,15 @@ const FifthBody = () => {
             alt="Baking Demo Surabaya"
             className="w-80 h-auto rounded-lg"
           />
-          <div className="p-2">
-            <h3 className="text-xl font-semibold">
-              Baking Demo Surabaya, Come & join us!
-            </h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+          <div className="flex flex-col p-2">
+            <div className="flex-1">
+              <h3 className="text-3xl font-semibold h-32">
+                Baking Demo Surabaya, Come & join us!
+              </h3>
+            </div>
+            <div className="flex-1">
+              <p className="text-black text-3xl">14 Januari 2023</p>
+            </div>
           </div>
         </div>
         <div className="story-card p-2">
@@ -57,9 +61,15 @@ const FifthBody = () => {
             alt="Content 2"
             className="w-80 h-auto rounded-lg"
           />
-          <div className="p-2">
-            <h3 className="text-xl font-semibold">Content 2</h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+          <div className="flex flex-col p-2">
+            <div className="flex-1">
+              <h3 className="text-3xl font-semibold h-32">
+                Content 2
+              </h3>
+            </div>
+            <div className="flex-1">
+              <p className="text-black text-3xl">14 Januari 2023</p>
+            </div>
           </div>
         </div>
         <div className="story-card p-2">
@@ -68,9 +78,15 @@ const FifthBody = () => {
             alt="Content 3"
             className="w-80 h-auto rounded-lg"
           />
-          <div className="p-2">
-            <h3 className="text-xl font-semibold">Content 3</h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+          <div className="flex flex-col p-2">
+            <div className="flex-1">
+              <h3 className="text-3xl font-semibold h-32">
+                Content 3
+              </h3>
+            </div>
+            <div className="flex-1">
+              <p className="text-black text-3xl">14 Januari 2023</p>
+            </div>
           </div>
         </div>
         <div className="story-card p-2">
@@ -79,9 +95,15 @@ const FifthBody = () => {
             alt="Content 4"
             className="w-80 h-auto rounded-lg"
           />
-          <div className="p-2">
-            <h3 className="text-xl font-semibold">Content 4</h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+          <div className="flex flex-col p-2">
+            <div className="flex-1">
+              <h3 className="text-3xl font-semibold h-32">
+                Content 4
+              </h3>
+            </div>
+            <div className="flex-1">
+              <p className="text-black text-3xl">14 Januari 2023</p>
+            </div>
           </div>
         </div>
         <div className="story-card p-2">
@@ -90,9 +112,15 @@ const FifthBody = () => {
             alt="Content 5"
             className="w-80 h-auto rounded-lg"
           />
-          <div className="p-2">
-            <h3 className="text-xl font-semibold">Content 5</h3>
-            <p className="text-gray-600">14 Januari 2023</p>
+          <div className="flex flex-col p-2">
+            <div className="flex-1">
+              <h3 className="text-3xl font-semibold h-32">
+                Content 5
+              </h3>
+            </div>
+            <div className="flex-1">
+              <p className="text-black text-3xl">14 Januari 2023</p>
+            </div>
           </div>
         </div>
       </Slider>

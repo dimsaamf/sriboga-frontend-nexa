@@ -1,9 +1,10 @@
 import React from "react";
-import { Navigation, Footer, Jumbotron, FirstBody, SecondBody, ThirdBody, FourthBody, FifthBody, SixthBody } from "./components";
+import { Logo, Navigation, Footer, Jumbotron, FirstBody, SecondBody, ThirdBody, FourthBody, FifthBody, SixthBody, Chat, Popup } from "./components";
 
 const App = () => {
   return (
     <div>
+      <Logo />
       <Navigation />
       <Jumbotron />
       <FirstBody />
@@ -13,6 +14,8 @@ const App = () => {
       <FifthBody />
       <SixthBody />
       <Footer />
+      <Chat />
+      <Popup />
     </div>
   );
 };
